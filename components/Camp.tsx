@@ -57,13 +57,13 @@ const Camp = () => {
             overflow-x-auto lg:h-[400px] xl:h-[640px]">
                 <Campsite
                     backgroundImage="bg-bg-img-1"
-                    title="Mayibuye Farm"
-                    subtitle="Camp'a nathi"
+                    title="Bergventure, Fernwood Lodge"
+                    subtitle="Cathkin Valley"
                     peopleJoined="50+ Joined"
                 />
                 <Campsite
                     backgroundImage="bg-bg-img-2"
-                    title="Mountain View"
+                    title="Hlalanathi Drakensberg Resort"
                     subtitle="Somewhere to escape"
                     peopleJoined="35+ Joined"
                 />

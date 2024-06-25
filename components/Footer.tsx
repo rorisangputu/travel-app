@@ -70,7 +70,7 @@ const Footer = () => {
 
                 </div>
                 <p className='regular-14 w-full text-center text-gray-30'>
-                    2024 Rorisang Putu | All Rights Reserved
+                    2024. HiLink | All Rights Reserved
                 </p>
             </div>
         </footer>
