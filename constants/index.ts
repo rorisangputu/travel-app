@@ -32,7 +32,7 @@ export const FEATURES = [
             "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
     },
     {
-        title: 'Technology using augment reality',
+        title: 'Technology using augmented reality',
         icon: '/tech.svg',
         variant: 'green',
         description:
@@ -55,14 +55,14 @@ export const FOOTER_LINKS = [
             'About Hilink',
             'Press Releases',
             'Environment',
-            'Jobs',
+            'Legal',
             'Privacy Policy',
             'Contact Us',
         ],
     },
     {
         title: 'Our Community',
-        links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+        links: ['Climbing', 'Hiking', 'Biking'],
     },
 ];
 
@@ -75,12 +75,12 @@ export const FOOTER_CONTACT_INFO = {
 };
 
 export const SOCIALS = {
-    title: 'Social',
+    title: 'Socials',
     links: [
         '/facebook.svg',
         '/instagram.svg',
         '/twitter.svg',
         '/youtube.svg',
-        '/wordpress.svg',
+
     ],
 };
