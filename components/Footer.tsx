@@ -2,6 +2,7 @@ import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from '@/constants'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import Logo from '../public/hilink-logo.svg';
 
 const Footer = () => {
     return (
@@ -12,7 +13,7 @@ const Footer = () => {
                     md:flex-row">
                     <Link href="/" className='mb-10'>
                         <Image
-                            src="/hilink-logo.svg" alt="logo" width={74}
+                            src={Logo} alt="logo" width={74}
                             height={29}
                         />
                     </Link>

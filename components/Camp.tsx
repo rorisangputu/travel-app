@@ -6,6 +6,7 @@ interface CampProps {
     subtitle: string;
     peopleJoined: string;
 }
+import foldedMap from '../public/folded-map.svg';
 
 const Campsite = ({ backgroundImage, title, subtitle, peopleJoined }:
     CampProps) => {
@@ -17,7 +18,7 @@ const Campsite = ({ backgroundImage, title, subtitle, peopleJoined }:
                 <div className="flexCenter gap-4">
                     <div className="rounded-full bg-green-50 p-4">
                         <Image
-                            src="/folded-map.svg"
+                            src={foldedMap}
                             alt="map"
                             width={28}
                             height={28}

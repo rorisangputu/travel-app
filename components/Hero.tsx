@@ -1,6 +1,10 @@
 import React from 'react'
 import Image from "next/image"
 import Button from './Button'
+import camp from '../public/camp.svg';
+import star from '../public/star.svg';
+import play from '../public/play.svg';
+import close from '../public/close.svg';
 
 const Hero = () => {
     return (
@@ -11,7 +15,7 @@ const Hero = () => {
 
             <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
                 <Image
-                    src="/camp.svg"
+                    src={camp}
                     alt="camp"
                     width={50}
                     height={50}
@@ -26,7 +30,7 @@ const Hero = () => {
                     <div className="flex items-center gap-2">
                         {Array(5).fill(1).map((_, index) => (
                             <Image
-                                src="/star.svg"
+                                src={star}
                                 key={index}
                                 alt='star'
                                 width={24}
@@ -48,7 +52,7 @@ const Hero = () => {
                     <Button
                         type='button'
                         title='How we work?'
-                        icon='/play.svg'
+                        icon={play}
                         variant='btn_white'
                     />
                 </div>
@@ -62,7 +66,7 @@ const Hero = () => {
                     <div className="flex flex-col">
                         <div className="flexBetween">
                             <p className='regular-16 text-gray-20'>Location</p>
-                            <Image src="/close.svg" alt='close' width={24} height={24} />
+                            <Image src={close} alt='close' width={24} height={24} />
                         </div>
                         <p className='bold-20 text-white'>Mahai Campsite</p>
                     </div>

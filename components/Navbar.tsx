@@ -3,7 +3,8 @@ import Logo from '../public/hilink-logo.svg';
 import Link from "next/link"
 import Button from "./Button"
 import Image from "next/image";
-
+import menu from '../public/menu.svg';
+import user from '../public/user.svg';
 
 const Navbar = () => {
     return (
@@ -25,12 +26,12 @@ const Navbar = () => {
                 <Button
                     type="button"
                     title="Login"
-                    icon="/user.svg"
+                    icon={user}
                     variant="btn_dark_green"
                 />
             </div>
             <Image
-                src="menu.svg"
+                src={menu}
                 alt="menu"
                 width={32}
                 height={32}
